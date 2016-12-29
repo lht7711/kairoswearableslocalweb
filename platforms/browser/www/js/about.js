@@ -7,7 +7,7 @@
 
     // Main
     var widthWid = window.innerWidth;
-    if(widthWid <=480){
+    if(widthWid <=768){
         console.log("Not work");
         $('#header-canvas').remove();
     } else {
